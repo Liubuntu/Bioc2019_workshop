@@ -1,7 +1,7 @@
-# Bioc2019_workshop
-Lazy representation of very large genomic resources in R/Bioconductor
+# Lazy representation of very large genomic resources in R/Bioconductor
 
-# Qian Liu, Martin Morgan. Qian.liu@roswellpark.org. Roswell Park Comprehensive Cancer Center
+# Qian Liu and Martin Morgan. 
+Qian.liu@roswellpark.org. Roswell Park Comprehensive Cancer Center
 
 # Workshop Description
 
@@ -14,11 +14,9 @@ be included.
 
 ## Pre-requisites
 
-List any workshop prerequisites, for example:
-
 * Basic knowledge of R syntax
-* Familiarity with the GenomicRanges class
-* Familiarity with xyz vignette (provide link)
+* Familiarity with the DelayedArray class
+* Familiarity with SummarizedExperiment class
 
 List relevant background reading for the workshop, including any
 theoretical background you expect students to have.
@@ -28,22 +26,31 @@ theoretical background you expect students to have.
 
 ## Workshop Participation
 
-Describe how students will be expected to participate in the workshop.
+Students will be using their laptops with internet connection, open the 
+course material and follow the instructor to read contents and run through
+the working code chunks.
 
 ## _R_ / _Bioconductor_ packages used
 
-List any _R_ / _Bioconductor_ packages that will be explicitly covered.
+* VariantAnnotation
+* DelayedArray
+* VCFArray
+* [SQLDataFrame](https://github.com/Bioconductor/VariantExperiment)
+* SingleCellExperiment
+* SummarizedExperiment
+* [VariantExperiment](https://github.com/Bioconductor/VariantExperiment)
 
 ## Time outline
 
-An example for a 45-minute workshop:
-
-| Activity                     | Time |
-|------------------------------|------|
-| Packages                     | 15m  |
-| Package Development          | 15m  |
-| Contributing to Bioconductor | 5m   |
-| Best Practices               | 10m  |
+| Activity                            | Time |
+|-------------------------------------|------|
+| Conventional infrastructures        | 5m   |
+| DelayedArray and extension          | 20m  |
+| lazy DataFrame packages             | 20m  |
+| RESTful APIs                        | 10m  | 
+| lazy interface development          | 10m  |
+|example 1: Single cell in HDF5Array  | 20m  |
+|example 2: SQLDataFrame for BigQuery | 20m  |
 
 # Workshop goals and objectives
 
