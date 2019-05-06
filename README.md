@@ -1,8 +1,8 @@
 # Lazy representation of very large genomic resources in R/Bioconductor
 
 # Instructor(s) name(s) and contact information
-Qian Liu (Qian.liu@roswellpark.org) Roswell Park Comprehensive Cancer Center
-Hervé Pagès (hpages at fredhutch.org) 
+- Qian Liu (Qian.liu@roswellpark.org) Roswell Park Comprehensive Cancer Center
+- Hervé Pagès (hpages at fredhutch.org) 
 
 # Workshop Description
 
