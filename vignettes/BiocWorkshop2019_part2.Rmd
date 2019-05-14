@@ -1,0 +1,19 @@
+---
+title: "BiocWorkshop2019_part2"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{BiocWorkshop2019}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(BiocWorkshops2019)
+```
