@@ -1,13 +1,28 @@
 Package: BiocWorkshops2019
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Lazy representation of very large genomic resources in R/Bioconductor
+Version: 0.99.0
+Authors@R: c(
+    person("Qian", "Liu", email = "qian.liu@roswellpark.org", role = c("aut", "cre")),
+    person("Hervé", " Pagès", email = "hpages@fredhutch.org", role = c("aut")))
+Description: In this workshop, we will learn the existing R /
+    Bioconductor lazy infrastructures, as well as the development of
+    new interfaces. We will also show some examples in representation
+    and comprehension of very big dataset from DNA/RNA-seq data. The
+    workshop will be mainly instructor-led live demo with completely
+    working examples. Instructions and notes will be available in the
+    vignette.
 Depends: R (>= 3.6.0)
-License: What license is it under?
+URL: https://github.com/Liubuntu/BiocWorkshops2019
+BugReports: https://github.com/Liubuntu/BiocWorkshops2019/issues
+License: GPL-3
 Encoding: UTF-8
-LazyData: true
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    SeqArray,
+    GDSArray,
+    VCFArray,
+    DelayedDataFrame,
+    VariantAnnotation
 VignetteBuilder: knitr
+RoxygenNote: 6.1.1
